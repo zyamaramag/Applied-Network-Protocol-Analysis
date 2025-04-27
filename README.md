@@ -1,4 +1,7 @@
 # Applied-Network-Protocol-Analysis
+
+Video Tutorial Link: https://www.youtube.com/watch?v=Bz-svQfYtF4
+
 This project is a Python-based brute-force tool designed to crack a PIN code for an HTTP application hosted on a specific port. It automates repeated PIN submissions and monitors server responses to detect a successful attempt. A key part of the process involved identifying the correct server address, port number, and necessary request parameters.
 
 How to Run
