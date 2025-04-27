@@ -4,7 +4,9 @@ This project is a Python-based brute-force tool designed to crack a PIN code for
 How to Run
 Starting the Server
 Launch the provided executable (.exe) file to start the server.
+
 Open a browser and visit http://127.0.0.1:8888.
+
 The application will then be ready to accept PIN entries.
 
 Running the Python Script
