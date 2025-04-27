@@ -10,22 +10,31 @@ Open a browser and visit http://127.0.0.1:8888.
 The application will then be ready to accept PIN entries.
 
 Running the Python Script
+
 Open the project folder in Visual Studio Code or your preferred Python IDE.
+
 Ensure Python is installed on your system.
+
 Install any required packages (such as requests) if needed.
+
 Run the script from the terminal using:
+
 python brute_force.py
+
 The script will systematically attempt all 3-digit PINs, showing progress in the console.
 
 Methodology
 Discovering the Server Address and Port
-Wireshark was used to monitor network traffic while running the executable. Analysis revealed that the server operates on 127.0.0.1 (localhost) and listens on port 8888.
+
+- Wireshark was used to monitor network traffic while running the executable. Analysis revealed that the server operates on 127.0.0.1 (localhost) and listens on port 8888.
 
 Finding the Necessary Parameters
-By tracing the HTTP stream in Wireshark, it was identified that the server expects the PIN value to be submitted using the magicNumber field. The script was tailored to match this requirement.
+
+- By tracing the HTTP stream in Wireshark, it was identified that the server expects the PIN value to be submitted using the magicNumber field. The script was tailored to match this requirement.
 
 Performance Considerations
-While no significant technical issues were encountered, the brute-force approach naturally leads to slower PIN discovery times.
+
+- While no significant technical issues were encountered, the brute-force approach naturally leads to slower PIN discovery times.
 
 Key Takeaways
 
