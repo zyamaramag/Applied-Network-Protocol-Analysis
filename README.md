@@ -19,7 +19,7 @@ Install any required packages (such as requests) if needed.
 
 Run the script from the terminal using:
 
-python brute_force.py
+python brute_force_PIN.py
 
 The script will systematically attempt all 3-digit PINs, showing progress in the console.
 
